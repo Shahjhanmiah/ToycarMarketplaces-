@@ -1,4 +1,5 @@
  import Gallery_Section from '../../Gallery_Section/Gallery_Section';
+import Shopbycategory from '../../Gallery_Section/Shop by category/Shopbycategory';
 import  logo  from '../Firebase/assets/52323.jpg'
 
 const Home = () => {
@@ -21,6 +22,9 @@ const Home = () => {
         </div>
         <h1 className='text-5xl text-orange-400  p-10'> Gallery Section</h1>
         <Gallery_Section></Gallery_Section>
+        <br></br>
+        <h1 className='text-5xl text-orange-400 p-10'>SubCategory</h1>
+        <Shopbycategory></Shopbycategory>
         </div>
         
     );
