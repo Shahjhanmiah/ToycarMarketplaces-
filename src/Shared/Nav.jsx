@@ -4,20 +4,15 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 // import useLocalStorage from 'use-local-storage'
 const Nav = () => {
-
-    // const [theme, setTheme] = useLocalStorage('theme' ? 'dark' : 'light')
-
-    // const switchTheme = () => {
-    //   const newTheme = theme === 'light' ? 'dark' : 'light';
-    //   setTheme(newTheme)
-    // }
+   
     let Links = [
         { name: "HOME", link: "/" },
         { name: "SERVICE", link: "/" },
         { name: "ABOUT", link: "/" },
-        { name: "CONTACT", link: "/" },
+        { name: "Register", link: "/Register" },
     ];
     let [open, setOpen] = useState(false);
+    
 
     return (
         <div className='shadow-md w-full fixed top-0 left-0'>
@@ -38,14 +33,10 @@ const Nav = () => {
                     {
                         Links.map((link) => (
                             <li className='md:ml-8 md:my-0 my-7 font-semibold' key={link.name}>
-                                <Link to={`/category/${link.link}`} className='text-gray-800 hover:text-blue-400 duration-500'>{link.name}</Link>
+                                <Link to={`${link.link}`} className='text-gray-800 hover:text-blue-400 duration-500'>{link.name}</Link>
                             </li>))
                     }
-                    {/* <button className='btn bg-blue-600 text-white md:ml-8 font-semibold px-3 py-1 rounded duration-500 md:static'>Get Started</button> */}
-                    {/* <div className='theme-toggle'>
-                        <h2>Light Theme</h2>
-                        <i onClick={switchTheme}></i>
-                    </div> */}
+                
                 </ul>
                 {/* button */}
             </div>

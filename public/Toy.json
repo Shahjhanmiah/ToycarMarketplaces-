@@ -1,0 +1,65 @@
+[
+    
+    {
+        "toy_name": "Teddy Bear",
+        "toy_type": "Plush",
+        "manufacturer": "ToyCo",
+        "color": "red",
+        "price": 19.99,
+         "Rating": 1,
+         "id": 1,
+         "image":"https://img.freepik.com/free-photo/red-car-with-christmas-ball-top_1252-296.jpg?w=996&t=st=1695317297~exp=1695317897~hmac=1a4aacb5bf3f55163e516b7751b3708c762412a7f7e6b9f6da0bd73e8e0d986f"
+      },
+      
+    {
+        "toy_name": "Teddy Bear",
+        "toy_type": "Plush",
+        "manufacturer": "ToyCo",
+        "color": "Brown",
+        "price": 19.99,
+         "Rating": 1,
+         "id": 2,
+         "image":"https://www.freepik.com/free-photo/fun-trex-3d-illustration_14201484.htm#query=toy%20car%20brown&position=24&from_view=search&track=ais"
+      },
+    {
+        "toy_name": "Teddy Bear",
+        "toy_type": "Plush",
+        "manufacturer": "ToyCo",
+        "color": "Black",
+        "price": 19.99,
+         "Rating": 4,
+         "id": 3,
+         "image":"https://www.freepik.com/free-vector/vehicle_3093276.htm#query=toy%20car%20black&position=9&from_view=search&track=ais"
+      },
+    {
+        "toy_name": "Teddy Bear",
+        "toy_type": "Plush",
+        "manufacturer": "ToyCo",
+        "color": "Sky",
+        "price": 19.99,
+         "Rating": 4,
+         "id": 4,
+         "image":"https://i.ebayimg.com/images/g/ankAAOSwq79j~dvf/s-l1600.jpg"
+      },
+    {
+        "toy_name": "Teddy Bear",
+        "toy_type": "Plush",
+        "manufacturer": "ToyCo",
+        "color": "Blue",
+        "price": 19.99,
+         "Rating": 5,
+         "id": 5,
+         "image":"https://img.freepik.com/premium-vector/blue-car-icon-cute-cartoon-toy-city-vehicle-isolated-white-background_176411-2829.jpg?w=1380"
+      },
+    {
+        "toy_name": "Teddy Bear",
+        "toy_type": "Plush",
+        "manufacturer": "ToyCo",
+        "color": "White",
+        "price": 19.99,
+         "Rating": 6,
+         "id": 6,
+         "image":"https://5.imimg.com/data5/ES/DM/MY-36959974/battery-operated-toy-cars-500x500.jpeg"
+      }
+]
+
