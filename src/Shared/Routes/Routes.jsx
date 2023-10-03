@@ -4,6 +4,10 @@ import Home from "../Home/Home";
 import Register from "../Register/Registe";
 import Login from "../Login/Login";
 import Shopbycategory from "../../Gallery_Section/Shop by category/Shopbycategory";
+import Shopid from "../../Gallery_Section/Shop by category/Shopid";
+import AllToys from "../../Gallery_Section/All Toys/AllToys";
+import MyToys from "../../Gallery_Section/All Toys/MyToys/MyToys";
+import AddAToy from "../../Gallery_Section/All Toys/Add A Toy/AddAToy";
 
 const router = createBrowserRouter([
     {
@@ -32,7 +36,28 @@ const router = createBrowserRouter([
           path:'/login',
           element:<Login></Login>
           
+        },
+        {
+          path:'/alltoys',
+          element:<AllToys></AllToys>
+          
+        },
+        {
+          path:'/mytoys',
+          element:<MyToys></MyToys>
+          
+        },
+        {
+          path:'/addaToys',
+          element:<AddAToy></AddAToy>
+          
+        },
+        {
+          path:'/Shopid',
+          // loader: ({params}) => fetch(`http://localhost:5000/userToy/${params.id}`),
+          element:<Shopid></Shopid>
         }
+
   
       ]
     },

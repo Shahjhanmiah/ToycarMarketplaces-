@@ -5,8 +5,8 @@ import  logo  from '../Firebase/assets/52323.jpg'
 const Home = () => {
     return (
         <div>
-            <div className="hero min-h-screen" >
-            <img src={logo}></img>
+            <div className="hero min-h-screen w-500 h-400" >
+            <img   src={logo}></img>
             <div className="hero-overlay bg-opacity-60"></div>
             <div className="hero-content text-center text-neutral-content">
                 <div className="max-w-md">
@@ -20,10 +20,10 @@ const Home = () => {
 
             
         </div>
-        <h1 className='text-5xl text-orange-400  p-10'> Gallery Section</h1>
+        <h1 className='text-5xl text-orange-600 p-10 text-center'> Gallery Section</h1>
         <Gallery_Section></Gallery_Section>
         <br></br>
-        <h1 className='text-5xl text-orange-400 p-10'>SubCategory</h1>
+        <h1 className='text-5xl text-orange-600 p-10 text-center'>SubCategory</h1>
         <Shopbycategory></Shopbycategory>
         </div>
         
