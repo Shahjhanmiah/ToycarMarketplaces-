@@ -20,10 +20,10 @@ const Home = () => {
 
             
         </div>
-        <h1 className='text-5xl text-orange-600 p-10 text-center'> Gallery Section</h1>
+        <h1 className='text-5xl text-orange-600 p-10 text-center font-bold'> Gallery Section</h1>
         <Gallery_Section></Gallery_Section>
         <br></br>
-        <h1 className='text-5xl text-orange-600 p-10 text-center'>SubCategory</h1>
+        <h1 className='text-5xl text-orange-600 p-10 text-center font-bold'>SubCategory</h1>
         <Shopbycategory></Shopbycategory>
         </div>
         

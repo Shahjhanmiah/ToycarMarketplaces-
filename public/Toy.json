@@ -4,38 +4,44 @@
         "toy_name": "mechanical engineering",
         "price": "19.99$",
          "Rating": 1,
-         "image":"https://c1.wallpaperflare.com/preview/204/500/852/recycling-battery-miniature-figures-power.jpg"
+         "image":"https://c1.wallpaperflare.com/preview/204/500/852/recycling-battery-miniature-figures-power.jpg",
+         "decription":"Battery Management: Mechanical engineers may be involved in designing systems that incorporate battery management systems (BMS). BMS helps monitor and control the charging and discharging of batteries, ensuring their safety and optimal performance."
       },
       
     {
         "toy_name": "mechanical engineering",
         "price": "19.99$",
          "Rating": 2,
-         "image":"https://c0.wallpaperflare.com/preview/419/860/902/wrist-watch-watchmaker-miniature-figures-locksmith.jpg"
+         "image":"https://c0.wallpaperflare.com/preview/419/860/902/wrist-watch-watchmaker-miniature-figures-locksmith.jpg",
+         "decription":"n summary, mechanical engineering and watches are closely related, particularly in the design, manufacturing, and maintenance of mechanical wristwatches. The field of horology, dedicated to the study of timekeeping and watchmaking, often involves mechanical engineers who contribute their expertise to create high-quality and precise timepieces."
       },
     {
         "toy_name": "mechanical engineering",
         "price": "19.99$",
          "Rating": 3,
-         "image":"https://c1.wallpaperflare.com/preview/836/511/765/miniature-figures-beach-notebook-sand.jpg"
+         "image":"https://c1.wallpaperflare.com/preview/836/511/765/miniature-figures-beach-notebook-sand.jpg",
+         "decription":"These are just a few examples, and there are many more specialized books available depending on your specific area of interest within mechanical engineering. Be sure to check if there are updated editions available, as the field of mechanical engineering continues to evolve with new research and technologies."
       },
     {
         "toy_name": "mechanical engineeringr",
         "price": "3445$",
          "Rating": 4,
-         "image":"https://c1.wallpaperflare.com/preview/486/549/243/mechanical-engineering-gear-miniature-figures-locksmith.jpg"
+         "image":"https://c1.wallpaperflare.com/preview/486/549/243/mechanical-engineering-gear-miniature-figures-locksmith.jpg",
+         "decription":"Please note that specific exams and certifications can vary by region and country, and their availability may change over time. If you have a particular exam or certification in mind or need more specific information, it's advisable to check with relevant engineering organizations, educational institutions, or licensing boards in your area for the most up-to-date information."
       },
     {
         "toy_name": "Teddy Bear",
         "price": "19.99$",
          "Rating": 5,
-         "image":"https://m.media-amazon.com/images/I/61D9NtrNtgL._AC_SX569_.jpg"
+         "image":"https://m.media-amazon.com/images/I/61D9NtrNtgL._AC_SX569_.jpg",
+         "decription":"If you have a specific question or topic related to mechanical engineering that you'd like to learn more about or discuss, please provide more context or details, and I'll be happy to assist you further."
       },
     {
         "toy_name": "movement, mechanics",
         "price": "19.99$",
          "Rating": 6,
-         "image":"https://c1.wallpaperflare.com/preview/165/525/67/mechanical-engineering-gear-miniature-figures-locksmith.jpg"
+         "image":"https://c1.wallpaperflare.com/preview/165/525/67/mechanical-engineering-gear-miniature-figures-locksmith.jpg",
+         "decription":"Mechanical engineers consider the material properties and strength characteristics of materials when designing structures and components. This ensures that they can withstand the forces and stresses encountered during operation."
       }
 ]
 
