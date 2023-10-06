@@ -6,31 +6,36 @@ import { AuthContext } from './Context/AuthProvider';
 // import useLocalStorage from 'use-local-storage'
 const Nav = () => {
 
-    const  {user,logOut} = useContext(AuthContext) 
+    const { user, logOut } = useContext(AuthContext)
     const handleLogout = () => {
         console.log('click')
         logOut()
-          .then(() => {
-    
-          })
-          .catch(err => console.log(err))
-      }
-   
+            .then(() => {
+
+            })
+            .catch(err => console.log(err))
+    }
+
+
+
     let Links = [
 
-        
+
         { name: "HOME", link: "/" },
         { name: "SERVICE", link: "/" },
         { name: "AllToys", link: "/alltoys" },
-        {name:"MyToys",link:'/mytoys'},
-        {name:"AddAToy",link:'/addaToys'},
-        { name: "Register", link: "/Register" },
+        { name: "MyToys", link: '/mytoys' },
+        { name: "AddAToy", link: '/addaToys' },
+
      
-        
+
+
+
+
     ];
-    
+
     let [open, setOpen] = useState(false);
-    
+
 
     return (
         <div className='shadow-md w-full fixed top-0 left-0'>
@@ -52,16 +57,30 @@ const Nav = () => {
                         Links.map((link) => (
                             <li className='md:ml-8 md:my-0 my-7 font-semibold' key={link.name}>
                                 <Link to={`${link.link}`} className='text-gray-800 hover:text-blue-400 duration-500'>{link.name}</Link>
-                                
+
                             </li>))
                     }
                     <Link to="/profile">
-                                    {user?.photoURL ?
-                                        <img className='' style={{ height: '45px' }} roundedCircle src={user?.photoURL}></img>
-                                        : <div></div>
-                                    }
-                                </Link>
-                
+                        {user?.photoURL ?
+                            <img style={{ height: '45px' }} className=' rounded-full mx-2' src={user?.photoURL}></img>
+                            : <div></div>
+                        }
+                    </Link>
+
+                    {user?.uid ?
+                        <>
+
+                          
+                            <li className='font-semibold'>
+                                <button onClick={handleLogout} className="px-8 py-3 font-semibold rounded-full bg-orange-400">Sign Out</button>
+                            </li>
+                        </>
+                        :
+                        <Link to='/login'>
+                            <button type="button" className="px-8 py-3 font-semibold rounded-full bg-orange-400">Login</button>
+                        </Link>
+                    }
+
                 </ul>
                 {/* button */}
             </div>

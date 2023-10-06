@@ -8,6 +8,10 @@ import Shopid from "../../Gallery_Section/Shop by category/Shopid";
 import AllToys from "../../Gallery_Section/All Toys/AllToys";
 import MyToys from "../../Gallery_Section/All Toys/MyToys/MyToys";
 import AddAToy from "../../Gallery_Section/All Toys/Add A Toy/AddAToy";
+import ShopDetails from "../../Gallery_Section/Shop by category/ShopDetails";
+import PrivateRoute from "../Context/PrivateRoute";
+import Logout from "../../Comment/Logout";
+import AllToysDetailspage from "../../Gallery_Section/All Toys/AllToysDetailspage";
 
 const router = createBrowserRouter([
     {
@@ -38,8 +42,13 @@ const router = createBrowserRouter([
           
         },
         {
+          path:'/logout',
+          element:<Logout></Logout>
+          
+        },
+        {
           path:'/alltoys',
-          element:<AllToys></AllToys>
+          element:<PrivateRoute><AllToys></AllToys></PrivateRoute>
           
         },
         {
@@ -56,7 +65,21 @@ const router = createBrowserRouter([
           path:'/Shopid',
           // loader: ({params}) => fetch(`http://localhost:5000/userToy/${params.id}`),
           element:<Shopid></Shopid>
-        }
+        },
+        {
+          path:'/shopdetais/:id',
+          loader: ({params}) => fetch(`http://localhost:5000/userToyid/${params.id}`),
+          element:<PrivateRoute><ShopDetails></ShopDetails></PrivateRoute>
+        },
+        {
+          path:'/alltoysdeatils/:id',
+          loader: ({params}) => fetch(`http://localhost:5000/userToyAll/${params.id}`),
+          element:<AllToysDetailspage></AllToysDetailspage>
+         
+        },
+
+       
+
 
   
       ]

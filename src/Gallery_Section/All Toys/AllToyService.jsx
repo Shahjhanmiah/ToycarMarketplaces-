@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
 
-const ShopbyDetails = ({ toy }) => {
-    const { toy_name, image, } = toy
+const AllToyService = ({toy}) => {
+    const {toy_name, image,_id } =  toy
     console.log(toy);
     return (
         <div>
-            <div className="max-w-full rounded-md shadow-md dark:bg-gray-900 dark:text-gray-100  data-aos= 'zoom-in' ">
+             <div className="max-w-full rounded-md shadow-md dark:bg-gray-900 dark:text-gray-100">
                 <img src={image} alt="" className="object-cover object-center w-full rounded-t-md h-72 dark:bg-gray-500" />
-                <div className="flex flex-col justify-between p-6 space-y-8 data-aos='zoom-in">
+                <div className="flex flex-col justify-between p-6 space-y-8">
                     <div className="space-y-2">
                         <h2 className="text-3xl font-semibold tracki " >Toyname:{toy_name}</h2>
                         <div className="flex items-center space-x-2 dark:text-yellow-500 text-orange-500">
@@ -18,17 +18,16 @@ const ShopbyDetails = ({ toy }) => {
                            
                         </div>
                     </div>
-                    <Link to={"/shopid"}>
-                    <button type="button" className="flex items-center justify-center w-full p-3 font-semibold tracki rounded-md bg-blue-600 text-white font-bold ">Read more</button>
+                    <Link to={`/alltoysdeatils/${_id}`}>
+                    <button type="button" className="flex items-center justify-center w-full p-3 font-semibold tracki rounded-md bg-blue-600 text-white text-1xl font-bold ">View Details button</button>
+                    
                     </Link>
                 </div>
 
             </div>
-            <div>
-                
-            </div>
+            
         </div>
     );
 };
 
-export default ShopbyDetails;
+export default AllToyService;

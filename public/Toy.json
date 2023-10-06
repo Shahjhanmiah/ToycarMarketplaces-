@@ -42,6 +42,104 @@
          "Rating": 6,
          "image":"https://c1.wallpaperflare.com/preview/165/525/67/mechanical-engineering-gear-miniature-figures-locksmith.jpg",
          "decription":"Mechanical engineers consider the material properties and strength characteristics of materials when designing structures and components. This ensures that they can withstand the forces and stresses encountered during operation."
+      },
+    {
+        "toy_name": "Lift and Rotate",
+        "price": "30.99$",
+         "Rating": 7,
+         "image":"https://www.dornerconveyors.com/wp-content/uploads/2017/10/8S4A2252-1-1024x683.jpg",
+         "decription":"The precise meaning of Lift and Rotate can vary widely based on the specific field or context in which it is used. To fully understand its meaning in a given situation, additional information or context may be required...."
+      },
+    {
+        "toy_name": "Ruduce Cost",
+        "price": "450.99$",
+         "Rating": 8,
+         "image":"https://www.glide-line.com/hubfs/Misc%20Blog%20Images/Slave%20driven%20conveyor.jpg",
+         "decription":"Overall, reducing costs is a critical aspect of financial management and is essential for improving profitability, maintaining competitiveness, and achieving financial sustainability in both business and project contexts....."
+      },
+    {
+        "toy_name": "Rotating Equipment",
+        "price": "35.99$",
+         "Rating": 9,
+         "image":"https://www.tristar-me.com/wp-content/uploads/2019/11/cover-1518980103.jpg",
+         "decription":"In summary, rotating equipment encompasses a broad range of machinery with rotating components used in various industries. They are essential for many industrial processes and require careful maintenance, monitoring, and safety measures to ensure efficient and safe operation......"
+      },
+    {
+        "toy_name": "Rotating Machinery",
+        "price": "50.99$",
+         "Rating": 10,
+         "image":"https://www.plm.automation.siemens.com/media/global/en/IM-RMPE-Main2_tcm27-36023.jpg",
+         "decription":"Siemens Digital Industries Software can help you gain better insight into rotating equipment for performance and efficiency, noise and vibration, and cooling than you can achieve with physical testing alone......."
+      },
+    {
+        "toy_name": "PIglide RL Flat Rotation",
+        "price": "558.99$",
+         "Rating": 11,
+         "image":"https://www.designnews.com/sites/designnews.com/files/styles/article_featured_standard/public/Lego-Mindstorms-NXT_0.jpg?itok=r8C7OPed",
+         "decription":"engineering toys provide an engaging way to learn about engineering principles, foster problem-solving skills, and inspire curiosity about the world of science and technology. They are a valuable resource for promoting STEM education and nurturing the next generation of engineers and innovators........"
+      },
+    {
+        "toy_name": "Build Various Robotics",
+        "price": "511.99$",
+         "Rating": 12,
+         "image":"https://cdn.shopify.com/s/files/1/0070/5901/3716/t/24/assets/build-various-robotics-projects-1684388738697.webp?v=1684388738",
+         "decription":"mBot Neo Shield can connect with more than 30 electronics and LEGO bricks, enabling kids to build various robotics and STEM projects..."
+      },
+    {
+        "toy_name": "Coding Robot for kids",
+        "price": "510.99$",
+         "Rating": 13,
+         "image":"https://cdn.shopify.com/s/files/1/0070/5901/3716/t/24/assets/coding-projects-for-kids-1684388738702.webp?v=1684388742",
+         "decription":"Support coding learning and STEM education with various game-based coding project boxes. Easier, faster, and more fun to learn to code..."
+      },
+    {
+        "toy_name": "Learning Coding Made Easy",
+        "price": "560.99$",
+         "Rating": 14,
+         "image":"https://cdn.shopify.com/s/files/1/0070/5901/3716/t/24/assets/learning-coding-made-easy-1684388738706.webp?v=1684388749",
+         "decription":"Coding with mBlock, kids will start with block-based coding, and upgrade to python programming in the same platform..."
+      },
+    {
+        "toy_name": "AI and loT Integrated Robot Toy",
+        "price": "590.99$",
+         "Rating": 15,
+         "image":"https://cdn.shopify.com/s/files/1/0070/5901/3716/t/24/assets/combination-of-ai-and-iot-1684388738704.webp?v=1684388746",
+         "decription":"mBot Neo can combine with mBuild modules to achieve intelligent functions, such as voice control, smart camera, and more...."
+      },
+    {
+        "toy_name": "Most Powerful Robot for Kids Ever",
+        "price": "590.99$",
+         "Rating": 16,
+         "image":"https://cdn.shopify.com/s/files/1/0070/5901/3716/t/24/assets/most-powerful-robot-kit-in-its-class-1684388738712.webp?v=1684388753",
+         "decription":"mBot Neo can combine with mBuild modules to achieve intelligent functions, such as voice control, smart camera, and more...."
+      },
+    {
+        "toy_name": "Beginner-friendly Coding Robot",
+        "price": "500.99$",
+         "Rating": 17,
+         "image":"https://cdn.shopify.com/s/files/1/0070/5901/3716/t/24/assets/beginnerfriendly-robot-kit-1684388738687.webp?v=1684388734",
+         "decription":"With its simple and compact design, mBot Neo is a perfect robot for kids easy to assemble (30 mins), store, and start coding....."
+      },
+    {
+        "toy_name": "Bluetooth Remote Controller",
+        "price": "500.99$",
+         "Rating": 18,
+         "image":"https://cdn.shopify.com/s/files/1/0070/5901/3716/t/24/assets/4-1679126613829.webp?v=1679126623",
+         "decription":"Bluetooth remote controllers have a wide range of applications and can enhance the user experience for various devices and activities, from gaming to multimedia consumption and home automation. They offer convenience and versatility in managing and interacting with electronic devices wirelessly......"
+      },
+    {
+        "toy_name": "Bluetooth Remote Controller",
+        "price": "200.99$",
+         "Rating": 19,
+         "image":"https://cdn.shopify.com/s/files/1/0070/5901/3716/t/24/assets/4-1679126613829.webp?v=1679126623",
+         "decription":"Bluetooth remote controllers have a wide range of applications and can enhance the user experience for various devices and activities, from gaming to multimedia consumption and home automation. They offer convenience and versatility in managing and interacting with electronic devices wirelessly......"
+      },
+    {
+        "toy_name": "mBot Neo Coding Project Boxes*4",
+        "price": "400.99$",
+         "Rating": 20,
+         "image":"https://cdn.shopify.com/s/files/1/0070/5901/3716/files/mBot_Neo_Coding_Boxes_4_9db6da71-a9af-4f81-97dd-3228d1d5f68a.webp?v=1693984066",
+         "decription":"Make sure to document each project, including the code, circuit connections, and any additional materials or modifications needed. This will help you create four distinct project boxes that showcase different aspects of coding and robotics with the mBot Neo......."
       }
 ]
 

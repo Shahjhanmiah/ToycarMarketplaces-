@@ -1,16 +1,12 @@
-import { useLoaderData } from "react-router-dom";
-import Review from "../../Component/Review";
+import {  useLoaderData } from "react-router-dom";
 
-
-
-const ShopDetails = () => {
+const AllToysDetailspage = () => {
     const toy = useLoaderData()
     const { toy_name, image, decription, price, } = toy
     console.log(toy);
     return (
         <div>
-            <div>
-                <div className="max-w-full p-4 shadow-md dark:bg-gray-900 dark:text-gray-100 mx-auto px-10 mx-10 my-20">
+             <div className="max-w-full p-4 shadow-md dark:bg-gray-900 dark:text-gray-100 mx-auto px-10 mx-10 my-20">
                     <div className="flex justify-between pb-4 border-bottom">
                         
                         <a rel="noopener noreferrer" href="#"></a>
@@ -37,14 +33,8 @@ const ShopDetails = () => {
                     </div>
 
                 </div>
-
-
-            </div>
-            <Review></Review>
-            
-           
         </div>
     );
 };
 
-export default ShopDetails;
+export default AllToysDetailspage;

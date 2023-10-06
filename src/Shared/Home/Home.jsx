@@ -1,18 +1,19 @@
- import Gallery_Section from '../../Gallery_Section/Gallery_Section';
+
+import Gallery_Section from '../../Gallery_Section/Gallery_Section';
 import Shopbycategory from '../../Gallery_Section/Shop by category/Shopbycategory';
-import  logo  from '../Firebase/assets/52323.jpg'
+ import  logo  from '../Firebase/assets/home-made-robot-desk_23-2148863420.jpg'
 
 const Home = () => {
     return (
         <div>
-            <div className="hero min-h-screen w-500 h-400" >
-            <img   src={logo}></img>
-            <div className="hero-overlay bg-opacity-60"></div>
+            <div className="" >
+            <img   src={logo} alt='' className='w-full mx-auto h-500 '>
+            </img>
+            <div className="hero-overlay"></div>
             <div className="hero-content text-center text-neutral-content">
                 <div className="max-w-md">
-                    <h1 className="mb-5 text-5xl font-bold">My Toy Car</h1>
-                    <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                    <button className="btn btn-primary">Get Started</button>
+                  
+                   
                 </div>
             </div>
 
@@ -20,13 +21,21 @@ const Home = () => {
 
             
         </div>
-        <h1 className='text-5xl text-orange-600 p-10 text-center font-bold'> Gallery Section</h1>
-        <Gallery_Section></Gallery_Section>
-        <br></br>
-        <h1 className='text-5xl text-orange-600 p-10 text-center font-bold'>SubCategory</h1>
-        <Shopbycategory></Shopbycategory>
+      
+
+          
+
+            <h1 className='text-5xl text-orange-600 p-10 text-center font-bold'> Gallery Section</h1>
+            <Gallery_Section></Gallery_Section>
+            <br></br>
+            <h1 className='text-5xl text-orange-600 p-10 text-center font-bold'>SubCategory</h1>
+            <Shopbycategory></Shopbycategory>
+
+
+
+
         </div>
-        
+
     );
 };
 

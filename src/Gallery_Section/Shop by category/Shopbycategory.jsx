@@ -17,7 +17,7 @@ const Shopbycategory = () => {
     }
     return (
         <div>
-        <div className='grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto ml-20 '>
+        <div className='grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto ml-20  data-aos="slide-up" '>
            {
             toyservice.map(toy=> <ShopbyDetails key={toy._id}
             toy={toy}
