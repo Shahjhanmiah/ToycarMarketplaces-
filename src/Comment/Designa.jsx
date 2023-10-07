@@ -2,7 +2,7 @@
 const Designa = () => {
     return (
         <div>
-            <section className="dark:bg-gray-800 dark:text-gray-100">
+            <section  className="dark:bg-gray-800 dark:text-gray-100">
                 <div className="container max-w-xl p-6 py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl">
                     <div>
                         <h2 className="text-3xl font-bold tracki text-center sm:text-5xl dark:text-gray-50 text-blue-600">Aliquip definiebas ad est</h2>

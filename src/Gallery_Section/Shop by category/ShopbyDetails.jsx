@@ -5,7 +5,7 @@ const ShopbyDetails = ({ toy }) => {
     console.log(toy);
     return (
         <div>
-            <div className="max-w-full rounded-md shadow-md dark:bg-gray-900 dark:text-gray-100  data-aos= 'zoom-in' ">
+            <div data-aos="zoom-in-down"   data-aos-duration="3000" className="max-w-full rounded-md shadow-md dark:bg-gray-900 dark:text-gray-100  data-aos= 'zoom-in' ">
                 <img src={image} alt="" className="object-cover object-center w-full rounded-t-md h-72 dark:bg-gray-500" />
                 <div className="flex flex-col justify-between p-6 space-y-8 data-aos='zoom-in">
                     <div className="space-y-2">

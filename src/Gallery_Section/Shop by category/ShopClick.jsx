@@ -1,14 +1,15 @@
-import { Link} from "react-router-dom";
-const ShopClick = ({toy}) => {
-    const { toy_name, image,price,_id} = toy
+import { Link } from "react-router-dom";
+const ShopClick = ({ toy }) => {
+    const { toy_name, image, price, _id } = toy
     console.log(toy);
-    
 
 
-    
+
+
     return (
         <div>
-             <div className="max-w-full rounded-md shadow-md dark:bg-gray-900 dark:text-gray-100">
+            <div data-aos="zoom-in-up" data-aos-easing="linear"
+                data-aos-duration="1500" className="max-w-full rounded-md shadow-md dark:bg-gray-900 dark:text-gray-100">
                 <img src={image} alt="" className="object-cover object-center w-full rounded-t-md h-72 dark:bg-gray-500" />
                 <div className="flex flex-col justify-between p-6 space-y-8">
                     <div className="space-y-2">
@@ -19,14 +20,14 @@ const ShopClick = ({toy}) => {
                             </svg>
                             <span className="text-xl font-bold">4.5</span>
                             <span className="text-4xl font-bold">Price:{price}</span>
-                           
+
                         </div>
                     </div>
                     <Link to={`/shopdetais/${_id}`}>
-                    <button type="button" className="flex items-center justify-center w-full p-3 font-semibold tracki rounded-md bg-blue-600 text-white text-1xl font-bold ">View Details button</button>
-                    
+                        <button type="button" className="flex items-center justify-center w-full p-3 font-semibold tracki rounded-md bg-blue-600 text-white text-1xl font-bold ">View Details button</button>
+
                     </Link>
-                   
+
                 </div>
             </div>
         </div>

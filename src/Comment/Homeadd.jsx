@@ -2,7 +2,7 @@
 const Homeadd = () => {
     return (
         <div>
-            <section className="py-6 dark:bg-gray-800 dark:text-gray-100">
+            <section   data-aos="zoom-out-up"   data-aos-duration="3000" className="py-6 dark:bg-gray-800 dark:text-gray-100">
                 <div className="container flex flex-col items-center justify-center p-4 mx-auto sm:p-10">
                   
                     <h1 className="text-4xl font-bold leadi text-center sm:text-5xl text-blue-600">The talented people behind the scenes</h1>
