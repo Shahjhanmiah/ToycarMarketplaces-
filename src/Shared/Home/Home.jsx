@@ -1,4 +1,6 @@
 
+import Designa from '../../Comment/Designa';
+import Homeadd from '../../Comment/Homeadd';
 import Gallery_Section from '../../Gallery_Section/Gallery_Section';
 import Shopbycategory from '../../Gallery_Section/Shop by category/Shopbycategory';
  import  logo  from '../Firebase/assets/home-made-robot-desk_23-2148863420.jpg'
@@ -30,6 +32,11 @@ const Home = () => {
             <br></br>
             <h1 className='text-5xl text-orange-600 p-10 text-center font-bold'>SubCategory</h1>
             <Shopbycategory></Shopbycategory>
+
+            <br></br>
+            <Homeadd></Homeadd>
+            <br></br>
+            <Designa></Designa>
 
 
 
