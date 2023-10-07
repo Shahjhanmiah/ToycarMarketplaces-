@@ -72,12 +72,12 @@ const Nav = () => {
 
                           
                             <li className='font-semibold'>
-                                <button onClick={handleLogout} className="px-8 py-3 font-semibold rounded-full bg-orange-400">Sign Out</button>
+                                <button onClick={handleLogout} className="px-8 py-3 font-semibold rounded-full bg-blue-600 text-white font-semibold">Sign Out</button>
                             </li>
                         </>
                         :
                         <Link to='/login'>
-                            <button type="button" className="px-8 py-3 font-semibold rounded-full bg-orange-400">Login</button>
+                            <button type="button" className="px-8 py-3 font-semibold rounded-full bg-blue-600 text-white font-semibold">Login</button>
                         </Link>
                     }
 

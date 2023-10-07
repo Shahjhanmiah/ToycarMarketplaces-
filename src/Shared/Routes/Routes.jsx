@@ -12,6 +12,7 @@ import ShopDetails from "../../Gallery_Section/Shop by category/ShopDetails";
 import PrivateRoute from "../Context/PrivateRoute";
 import Logout from "../../Comment/Logout";
 import AllToysDetailspage from "../../Gallery_Section/All Toys/AllToysDetailspage";
+import UpdateToy from "../../Gallery_Section/All Toys/UpdateToy";
 
 
 const router = createBrowserRouter([
@@ -57,7 +58,7 @@ const router = createBrowserRouter([
         {
           path:'/mytoys',
           loader: ()=> fetch('http://localhost:5000/postadd'),
-          element:<MyToys></MyToys>
+          element:<PrivateRoute><MyToys></MyToys></PrivateRoute>
           
         },
         {
@@ -81,6 +82,17 @@ const router = createBrowserRouter([
           element:<AllToysDetailspage></AllToysDetailspage>
          
         },
+        {
+          path:'/updateToy/:id',
+          loader: ({params}) => fetch(`http://localhost:5000/postadd/${params.id}`),
+          element:<UpdateToy></UpdateToy>
+
+         
+        },
+        {
+          path:'/update',
+          element:<UpdateToy></UpdateToy>
+        }
 
        
 
