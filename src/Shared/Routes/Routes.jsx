@@ -13,6 +13,7 @@ import PrivateRoute from "../Context/PrivateRoute";
 import Logout from "../../Comment/Logout";
 import AllToysDetailspage from "../../Gallery_Section/All Toys/AllToysDetailspage";
 
+
 const router = createBrowserRouter([
     {
       path: "/",
@@ -30,6 +31,8 @@ const router = createBrowserRouter([
           element:<Shopbycategory></Shopbycategory>
        
         },
+
+       
   
         {
           path:'/Register',
@@ -53,6 +56,7 @@ const router = createBrowserRouter([
         },
         {
           path:'/mytoys',
+          loader: ()=> fetch('http://localhost:5000/postadd'),
           element:<MyToys></MyToys>
           
         },
