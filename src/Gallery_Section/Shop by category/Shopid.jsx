@@ -5,7 +5,7 @@ const Shopid = () => {
     const [shopid,Shopidservice] = useState([])
     
     useEffect(() => {
-        fetch('http://localhost:5000/userToyid')
+        fetch('https://toy-car-server.onrender.com/userToyid')
             .then(res => res.json())
             .then(data => Shopidservice(data))
     }, [])

@@ -28,7 +28,7 @@ const router = createBrowserRouter([
         },
         {
           path:'/Shopbycategory',
-          loader:()=>fetch('http://localhost:5000/userToy'),
+          loader:()=>fetch('https://toy-car-server.onrender.com/userToy'),
           element:<Shopbycategory></Shopbycategory>
        
         },
@@ -57,7 +57,7 @@ const router = createBrowserRouter([
         },
         {
           path:'/mytoys',
-          loader: ()=> fetch('http://localhost:5000/postadd'),
+          loader: ()=> fetch('https://toy-car-server.onrender.com/postadd'),
           element:<PrivateRoute><MyToys></MyToys></PrivateRoute>
           
         },
@@ -68,23 +68,23 @@ const router = createBrowserRouter([
         },
         {
           path:'/Shopid',
-          // loader: ({params}) => fetch(`http://localhost:5000/userToy/${params.id}`),
+          // loader: ({params}) => fetch(`https://toy-car-server.onrender.com/userToy/${params.id}`),
           element:<Shopid></Shopid>
         },
         {
           path:'/shopdetais/:id',
-          loader: ({params}) => fetch(`http://localhost:5000/userToyid/${params.id}`),
+          loader: ({params}) => fetch(`https://toy-car-server.onrender.com/userToyid/${params.id}`),
           element:<PrivateRoute><ShopDetails></ShopDetails></PrivateRoute>
         },
         {
           path:'/alltoysdeatils/:id',
-          loader: ({params}) => fetch(`http://localhost:5000/userToyAll/${params.id}`),
+          loader: ({params}) => fetch(`https://toy-car-server.onrender.com/userToyAll/${params.id}`),
           element:<AllToysDetailspage></AllToysDetailspage>
          
         },
         {
           path:'/updateToy/:id',
-          loader: ({params}) => fetch(`http://localhost:5000/postadd/${params.id}`),
+          loader: ({params}) => fetch(`https://toy-car-server.onrender.com/postadd/${params.id}`),
           element:<UpdateToy></UpdateToy>
 
          

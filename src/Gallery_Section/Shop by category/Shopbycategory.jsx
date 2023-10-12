@@ -7,7 +7,7 @@ const Shopbycategory = () => {
      const [toyservice,Toyservice] = useState([])
     
     useEffect(() => {
-        fetch('http://localhost:5000/userToy')
+        fetch('https://toy-car-server.onrender.com/userToy')
             .then(res => res.json())
             .then(data => Toyservice(data))
     }, [])

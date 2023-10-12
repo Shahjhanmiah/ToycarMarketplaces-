@@ -5,7 +5,7 @@ const AllToys = () => {
     const [alltoys, AllToyservice] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:5000/userToyAll')
+        fetch('https://toy-car-server.onrender.com/userToyAll')
             .then(res => res.json())
             .then(data => AllToyservice(data))
     }, [])

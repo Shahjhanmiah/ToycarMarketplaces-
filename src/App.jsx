@@ -17,7 +17,7 @@ const App = ({ post, postadd, setPostadd }) => {
             if (result.isConfirmed) {
 
 
-                fetch(`http://localhost:5000/postadd/${_id}`, {
+                fetch(`https://toy-car-server.onrender.com/postadd/${_id}`, {
                     method: 'DELETE'
                 })
                     .then(res => res.json())

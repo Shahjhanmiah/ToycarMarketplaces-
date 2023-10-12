@@ -16,7 +16,7 @@ import Swal from 'sweetalert2'
             const newToy = { name, quantity, seller, email,price, rating, photo,description }
             console.log(newToy);
     
-            fetch('http://localhost:5000/postadd',{
+            fetch('https://toy-car-server.onrender.com/postadd',{
                 method: 'POST',
                 headers: {
                     'content-type': 'application/json'

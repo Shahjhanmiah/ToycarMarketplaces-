@@ -21,7 +21,7 @@ const UpdateToy = () => {
         console.log(updatedToy);
 
           // send data to the server
-          fetch(`http://localhost:5000/postadd/${_id}`, {
+          fetch(`https://toy-car-server.onrender.com/postadd/${_id}`, {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'
