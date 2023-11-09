@@ -3,6 +3,7 @@ import logo from '../Firebase/assets/Tablet login-bro.png'
 import { useContext } from "react";
 import Swal from 'sweetalert2'
 import { AuthContext } from "../Context/AuthProvider";
+import { Helmet } from "react-helmet";
 
 
 const Login = () => {
@@ -56,6 +57,7 @@ const Login = () => {
 
     return (
         <div>
+            <Helmet>Toy||Login</Helmet>
             <div>
                 <div className="hero w-full my-20">
                     <div className="hero-content grid gap-20 md:grid-cols-2 flex-col lg:flex-row">

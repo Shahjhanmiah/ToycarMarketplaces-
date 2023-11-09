@@ -1,7 +1,9 @@
+import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 import Swal from 'sweetalert2'
 
 const App = ({ post, postadd, setPostadd }) => {
+    
     const { name, quantity, seller, email, price, rating, photo, description, _id } = post
     const handleDelete = _id => {
         console.log(_id);
@@ -39,6 +41,7 @@ const App = ({ post, postadd, setPostadd }) => {
     }
     return (
         <div>
+            <Helmet><title>Toy||APP</title></Helmet>
             <div className="flex flex-col max-w-lg p-6 space-y-6 overflow-hidden rounded-lg shadow-md dark:bg-gray-900 dark:text-gray-100">
                 <div className="flex space-x-4">
                     <img alt="" src="https://source.unsplash.com/100x100/?portrait" className="object-cover w-12 h-12 rounded-full shadow dark:bg-gray-500" />

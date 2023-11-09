@@ -3,6 +3,7 @@ import logo from '../Firebase/assets/Tablet login-bro.png'
 import { useContext } from 'react';
 import Swal from 'sweetalert2'
 import { AuthContext } from '../Context/AuthProvider';
+import { Helmet } from 'react-helmet';
 const Registe = () => {
     const {createUser} = useContext(AuthContext)
     const {googleSignIn} = useContext(AuthContext)
@@ -48,6 +49,7 @@ const Registe = () => {
 
     return (
         <div>
+            <Helmet><title>Toy||Resiter</title></Helmet>
           <div className="hero w-full my-20">
             <div className="hero-content grid gap-20 md:grid-cols-2 flex-col lg:flex-row">
                 <div className="text-center lg:text-left">

@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import ShopbyDetails from "./ShopbyDetails";
+import { Helmet } from "react-helmet";
 
 
 const Shopbycategory = () => {
@@ -17,6 +18,7 @@ const Shopbycategory = () => {
     }
     return (
         <div>
+            <Helmet><title>Toy||ShopbyCategory</title></Helmet>
         <div className='grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto ml-20  data-aos="slide-up" '>
            {
             toyservice.map(toy=> <ShopbyDetails key={toy._id}

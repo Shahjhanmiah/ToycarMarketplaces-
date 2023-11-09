@@ -1,12 +1,14 @@
 import { useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import App from "../../../App";
+import { Helmet } from "react-helmet";
 
 const MyToys = () => {
     const loadedPostadd = useLoaderData();
     const [postadd, setPostadd] = useState(loadedPostadd);
     return (
         <div>
+            <Helmet><title>Toy|| MyToy</title></Helmet>
             <div>
                 <div className='m-20'>
                    

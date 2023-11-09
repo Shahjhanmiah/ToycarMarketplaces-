@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet';
 import Swal from 'sweetalert2'
            
          const AddAToy = () => {
@@ -41,6 +42,7 @@ import Swal from 'sweetalert2'
     
     return (
         <div>
+            <Helmet><title>Toy||Add A Toy</title></Helmet>
             <div>
             <div className="bg-[#F4F3F0] p-24">
                 <h2 className="text-3xl font-extrabold">Add a Toy</h2>
