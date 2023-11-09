@@ -1,4 +1,5 @@
 
+import { Helmet } from 'react-helmet';
 import Designa from '../../Comment/Designa';
 import Homeadd from '../../Comment/Homeadd';
 import Gallery_Section from '../../Gallery_Section/Gallery_Section';
@@ -8,6 +9,7 @@ import Shopbycategory from '../../Gallery_Section/Shop by category/Shopbycategor
 const Home = () => {
     return (
         <div>
+            <Helmet><title>Toy||Home</title></Helmet>
             <div className="" >
             <img   src={logo} alt='' className='w-full mx-auto h-500 '>
             </img>

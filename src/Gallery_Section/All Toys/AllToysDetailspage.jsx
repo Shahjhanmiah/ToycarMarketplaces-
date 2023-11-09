@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import {  useLoaderData } from "react-router-dom";
 
 const AllToysDetailspage = () => {
@@ -6,6 +7,7 @@ const AllToysDetailspage = () => {
     console.log(toy);
     return (
         <div>
+            <Helmet><title>Toy||AllToyDetais</title></Helmet>
              <div className="max-w-full p-4 shadow-md dark:bg-gray-900 dark:text-gray-100 mx-auto px-10 mx-10 my-20">
                     <div className="flex justify-between pb-4 border-bottom">
                         
