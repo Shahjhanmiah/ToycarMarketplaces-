@@ -1,10 +1,11 @@
 
 import { BookOpenIcon, Bars3BottomRightIcon, XMarkIcon, } from '@heroicons/react/24/solid'
-import { useContext, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { AuthContext } from './Context/AuthProvider';
 // import useLocalStorage from 'use-local-storage'
 const Nav = () => {
+    const [theme, setTheme] = useState(localStorage.getItem('theme') ? localStorage.getItem('theme') : 'light')
 
     const { user, logOut } = useContext(AuthContext)
     const handleLogout = () => {
@@ -15,6 +16,24 @@ const Nav = () => {
             })
             .catch(err => console.log(err))
     }
+
+    // toggle 
+
+    useEffect(() => {
+        localStorage.setItem('theme', theme)
+        const localTheme = localStorage.getItem('theme')
+        document.querySelector('html').setAttribute('data-theme', localTheme)
+      }, [theme])
+    
+      const handletogle = (e) => {
+        if (e.target.checked) {
+          setTheme('dark')
+        }
+        else {
+          setTheme('light')
+        }
+    
+      }
 
 
 
@@ -27,7 +46,7 @@ const Nav = () => {
         { name: "MyToys", link: '/mytoys' },
         { name: "AddAToy", link: '/addaToys' },
 
-     
+
 
 
 
@@ -70,7 +89,7 @@ const Nav = () => {
                     {user?.uid ?
                         <>
 
-                          
+
                             <li className='font-semibold'>
                                 <button onClick={handleLogout} className="px-8 py-3 font-semibold rounded-full bg-blue-600 text-white font-semibold">Sign Out</button>
                             </li>
@@ -82,7 +101,10 @@ const Nav = () => {
                     }
 
                 </ul>
-                {/* button */}
+
+                <input  onChange={handletogle}
+            checked={theme === "light" ? false : true} type="checkbox" className="toggle toggle-accent" />
+
             </div>
         </div>
     )
